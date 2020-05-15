@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.Application", "RpgCombat.Application\RpgCombat.Application.csproj", "{E8BC4E11-95A3-4B9C-9A3E-6E20C6E4C29E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.WebApi", "RpgCombat.WebApi\RpgCombat.WebApi.csproj", "{C0045553-938E-46AF-A599-2022A6C76885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.Domain", "RpgCombat.Domain\RpgCombat.Domain.csproj", "{CF1DC1AE-8DE5-44E1-A521-B39A2134F904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.Domain.Tests", "RpgCombat.Domain.Tests\RpgCombat.Domain.Tests.csproj", "{F2BA1BC4-1C73-4967-9F71-1537FEC56BCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.Infrastructure", "RpgCombat.Infrastructure\RpgCombat.Infrastructure.csproj", "{2FFE9F30-6DA9-4D99-BAE9-D5F57184E848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.Application.Tests", "RpgCombat.Application.Tests\RpgCombat.Application.Tests.csproj", "{EE12655A-CDED-45CD-8C57-E928D58B540B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.Infrastructure.Tests", "RpgCombat.Infrastructure.Tests\RpgCombat.Infrastructure.Tests.csproj", "{A76A7421-7042-4D44-BAAF-A0337F71A8CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{A4E1EB66-EFC5-4D16-B497-BC2BD62BE569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0046A972-F992-4099-B595-6928C1398EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{88D75E05-F177-4F37-8F12-941DF6269754}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5DBDAA58-3EBE-42C5-9DAC-197AD31EC293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RpgCombat.WebApi.Controllers.Tests", "RpgCombat.WebApi.Controllers.Tests\RpgCombat.WebApi.Controllers.Tests.csproj", "{F189988D-6BC4-4F65-8889-C2E9BE8D0B22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RpgCombat.WebApi.Integration.Tests", "RpgCombat.WebApi.Integration.Tests\RpgCombat.WebApi.Integration.Tests.csproj", "{DEA74037-3565-49DE-A2FF-963D2158DA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8BC4E11-95A3-4B9C-9A3E-6E20C6E4C29E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8BC4E11-95A3-4B9C-9A3E-6E20C6E4C29E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8BC4E11-95A3-4B9C-9A3E-6E20C6E4C29E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8BC4E11-95A3-4B9C-9A3E-6E20C6E4C29E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0045553-938E-46AF-A599-2022A6C76885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0045553-938E-46AF-A599-2022A6C76885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0045553-938E-46AF-A599-2022A6C76885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0045553-938E-46AF-A599-2022A6C76885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF1DC1AE-8DE5-44E1-A521-B39A2134F904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF1DC1AE-8DE5-44E1-A521-B39A2134F904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF1DC1AE-8DE5-44E1-A521-B39A2134F904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF1DC1AE-8DE5-44E1-A521-B39A2134F904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BA1BC4-1C73-4967-9F71-1537FEC56BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BA1BC4-1C73-4967-9F71-1537FEC56BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BA1BC4-1C73-4967-9F71-1537FEC56BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BA1BC4-1C73-4967-9F71-1537FEC56BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FFE9F30-6DA9-4D99-BAE9-D5F57184E848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FFE9F30-6DA9-4D99-BAE9-D5F57184E848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FFE9F30-6DA9-4D99-BAE9-D5F57184E848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FFE9F30-6DA9-4D99-BAE9-D5F57184E848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE12655A-CDED-45CD-8C57-E928D58B540B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE12655A-CDED-45CD-8C57-E928D58B540B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE12655A-CDED-45CD-8C57-E928D58B540B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE12655A-CDED-45CD-8C57-E928D58B540B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76A7421-7042-4D44-BAAF-A0337F71A8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76A7421-7042-4D44-BAAF-A0337F71A8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76A7421-7042-4D44-BAAF-A0337F71A8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76A7421-7042-4D44-BAAF-A0337F71A8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F189988D-6BC4-4F65-8889-C2E9BE8D0B22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F189988D-6BC4-4F65-8889-C2E9BE8D0B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F189988D-6BC4-4F65-8889-C2E9BE8D0B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F189988D-6BC4-4F65-8889-C2E9BE8D0B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEA74037-3565-49DE-A2FF-963D2158DA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA74037-3565-49DE-A2FF-963D2158DA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA74037-3565-49DE-A2FF-963D2158DA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA74037-3565-49DE-A2FF-963D2158DA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8BC4E11-95A3-4B9C-9A3E-6E20C6E4C29E} = {5DBDAA58-3EBE-42C5-9DAC-197AD31EC293}
+		{C0045553-938E-46AF-A599-2022A6C76885} = {A4E1EB66-EFC5-4D16-B497-BC2BD62BE569}
+		{CF1DC1AE-8DE5-44E1-A521-B39A2134F904} = {0046A972-F992-4099-B595-6928C1398EC3}
+		{F2BA1BC4-1C73-4967-9F71-1537FEC56BCA} = {0046A972-F992-4099-B595-6928C1398EC3}
+		{2FFE9F30-6DA9-4D99-BAE9-D5F57184E848} = {88D75E05-F177-4F37-8F12-941DF6269754}
+		{EE12655A-CDED-45CD-8C57-E928D58B540B} = {5DBDAA58-3EBE-42C5-9DAC-197AD31EC293}
+		{A76A7421-7042-4D44-BAAF-A0337F71A8CC} = {88D75E05-F177-4F37-8F12-941DF6269754}
+		{F189988D-6BC4-4F65-8889-C2E9BE8D0B22} = {A4E1EB66-EFC5-4D16-B497-BC2BD62BE569}
+		{DEA74037-3565-49DE-A2FF-963D2158DA12} = {A4E1EB66-EFC5-4D16-B497-BC2BD62BE569}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D906BD4-D675-4E56-A9AF-6E2D77BFFB0E}
+	EndGlobalSection
+EndGlobal
