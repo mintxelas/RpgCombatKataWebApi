@@ -1,5 +1,5 @@
 # RpgCombatKataWebApi
-dotner core web api implementation of Rpg Combat Kata
+dotnet core web api implementation of Rpg Combat Kata
 
 Kata: https://github.com/ardalis/kata-catalog/blob/master/katas/RPG%20Combat.md
 
